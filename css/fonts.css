@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'AIP-I-font';
+    src: url('../Dancing_Script/DancingScript-VariableFont_wght.ttf') format('wght'),
+         url('../Dancing_Script/static/DancingScript-Bold.ttf') format('truetype');
+}
+
+
+
+.text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    line-height:1.5;
+    font-size: 12px;
+}
+
+.title {
+    letter-spacing: normal;
+}
+
+
+
+.ingresbox .title {
+    font-size: 2.6vw;
+}
+
+.ingres {
+    font-family:'AIP-I-font';
+    font-size: 1.5vw;
+}
+.ingres a {
+    text-decoration: none; /*prevents underline of links*/
+}
+
+.skillsbox .title {
+    margin: 0 0 20px 50px;
+    font-size:1.8vw;
+}
+
+
+.skillsbox h2 {
+    margin: 20px 0 20px 0;
+    font-size:3vw;
+}
+
+.skillsbox p {
+    text-indent: 20px;
+    font-size:1vw;
+}
+
+.skillsbox a {
+    text-decoration: none;  /*prevents underline of links*/
+}
+.technologycard .label {
+    font-weight:900;
+    font-size:1.2vw;
+}

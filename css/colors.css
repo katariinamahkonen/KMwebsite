@@ -1,0 +1,49 @@
+
+body {
+    background-image:  url("../images/29272621.jpg");
+}
+
+.header  {
+    background-color: #606070;
+    border: solid 1px #707080;
+}
+
+.text {
+    color: #b2dddf;
+}
+
+.footer {
+    border: solid 1px #B0B0B0;
+    background-color:#C0C0D0;
+    color: black;
+}
+
+
+.title {
+    text-shadow: 2px 2px 4px #000000;
+}
+.ingresbox {
+    background: rgb(50, 66, 111);
+    border-radius:3px;
+    border: solid 2px rgba(15,35,75,0.9);
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+}
+
+.ingres a {
+    color: #FFFFFF;
+}
+
+.title {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+}
+.technologycard {
+    background-color:#000000B0;
+}
+
+.skillsbox a {
+    color: #FFFFFF;
+}
+.technologycard .label {
+    color:#46787b;
+}

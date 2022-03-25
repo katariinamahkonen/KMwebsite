@@ -1,0 +1,29 @@
+@media (max-width: 1500px) {
+
+    .skillsbox p {font-size:12px;}
+    .ingresbox {       width:33%;}  
+    .skillsbox.left {  width: 59%;
+        margin-bottom:0%;
+    }
+    .skillsbox.right { width:59%;
+        margin-top:1%;
+    }
+
+    .technologycardbox .technologycard  {
+                       width:32.2%;
+        height:100px;
+        float:left;
+        margin-right: 1%;
+    }
+} 
+
+@media (max-width: 1220px) {
+    .ingresbox {width:46%; margin-bottom:0;}
+    .skillsbox.left{width:46%;}
+    .skillsbox.right{width:98%; margin-top:2%;}
+    .technologycardbox .technologycard  {
+        width:15.5%;
+        height:150px;
+    }
+}
+
