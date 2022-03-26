@@ -1,29 +1,73 @@
+@media (max-width: 2000px) {
+    .ingres     {  font-size: 30px;    }
+    footer .text {  font-size: 20px;    }
+}
+
 @media (max-width: 1500px) {
-
-    .skillsbox p {font-size:12px;}
-    .ingresbox {       width:33%;}  
-    .skillsbox.left {  width: 59%;
-        margin-bottom:0%;
-    }
-    .skillsbox.right { width:59%;
-        margin-top:1%;
-    }
-
-    .technologycardbox .technologycard  {
-                       width:32.2%;
-        height:100px;
-        float:left;
-        margin-right: 1%;
-    }
+    .ingresbox       { width:33%;   margin-bottom:0;     }  
+    .skillsbox.left  { width: 59%;  margin-bottom:0%;    }
+    .skillsbox.right { width:59%;   margin-top:1%;       }
+    .text             { font-size:15px;   }
+    .skillsbox .title { font-size: 28px;  }
+    .ingresbox .title { font-size:38px;   }
+    .ingres           { font-size: 28px;  }
 } 
+
+@media (max-width: 1335px) { .footerbgrbox {height:60px;}}
 
 @media (max-width: 1220px) {
     .ingresbox {width:46%; margin-bottom:0;}
-    .skillsbox.left{width:46%;}
-    .skillsbox.right{width:98%; margin-top:2%;}
-    .technologycardbox .technologycard  {
-        width:15.5%;
-        height:150px;
+    .skillsbox.left{width:46%; margin-top:55px;}
+    .skillsbox.right{width:98%; }
+    .technologycard .label {
+        font-size: 18px;
     }
 }
 
+@media (max-width:1080px) {
+    .ingresbox {      width:94%;  }
+    .portraitimage img { width:80%; }
+    .portraitimage { width:30%; float:left; }
+    .ingres {width: 65%; float:left; margin-top:3%;}
+    .skillsbox.left{ width: 94%; margin-top:4%; }
+    .skillsbox.right{ margin-top: 2%;}
+    .skillscard {padding-left:30px;  padding-right: 30px;}
+    footer { min-height: 60px;}
+}  
+
+
+@media (max-width:900px) {
+    .portraitimage img {width:195px;}
+    .ingresbox { padding-left:24px;padding-right:20px;}
+    .ingres { padding-left:20px; }
+    .technologycardbox .technologycard  { height: 130px;}
+}
+
+
+@media (max-width:735px) {
+    .portraitimage {width:94%;}
+    .ingres {width:94%;}
+}
+@media (max-width:655px) {
+    .portraitimage { float:left;}
+    .ingres  {clear:left;}
+}
+
+
+
+@media (max-width:655px) {
+    footer .text{ font-size:3vw; }
+}
+@media (max-width:580px) { footer .text {font-size:2.9vw;} }
+@media (max-width:480px) { footer .text {font-size:2.8vw;} }
+
+@media (max-width: 1500px){ .technologycardbox .technologycard  { width:32.2%; height: 120px;   margin-right: 1%;}}
+@media (max-width: 1220px){ .technologycardbox .technologycard  { width:15.5%; height: 180px;    }}
+@media (max-width:1080px) { .technologycardbox .technologycard  { width:31.2%; height: 100px;    }}
+@media (max-width:900px) {  .technologycardbox .technologycard  {              height: 130px;   }}
+@media (max-width:780px) {  .technologycardbox .technologycard  {              height: 145px;   }}
+@media (max-width:655px) {  .technologycardbox .technologycard  { width:47%;   height: 110px;   }}
+@media (max-width:570px) {  .technologycardbox .technologycard  {              height: 125px;   }}
+@media (max-width:520px) {  .technologycardbox .technologycard  { width:97%;   height: auto;    }}
+
+@media (max-width:455px) { .ingres {font-size:6vw;}}

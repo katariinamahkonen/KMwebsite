@@ -4,6 +4,14 @@
     padding:0;
 }
 
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
 html, body {
  /*  height:100%; */ 
 }
@@ -24,15 +32,22 @@ html, body {
 
 }
 
-.footer {
+footer {
     height:5%;
     width:100%;
     position:fixed;
     bottom: 0;
+    
+}
+footer .text {
+    width:100%;
     text-align:center;
 }
 
-
+.footerbgrbox {
+    height:40px;
+    clear:both;
+}
 /* overall box-layout ***********************/
 
 
@@ -54,6 +69,7 @@ html, body {
 }
 .skillsbox.right {
     width:23%;
+    margin-bottom:0;
 }
 /*********************************************/
 .ingres {
@@ -74,11 +90,24 @@ html, body {
 }
 /*********************************************/
 
-.technologycard {
+.skillscard {
     margin-bottom:10px;
-    padding: 20px;
-    text-align:center;
+    padding: 15px;
 }
 
+.technologycard {
+    margin-bottom:10px;
+    padding: 15px;
+    text-align:center;
+    float:left;
+    width:100%;
+
+}
+.technologycard.text p {
+    text-indent:0;
+}
+.technologycard .label {
+    margin-bottom:10px;
+}
 
 /*********************************************/

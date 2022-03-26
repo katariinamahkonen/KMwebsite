@@ -11,8 +11,9 @@
     font-weight:lighter;
     letter-spacing: 2px;
     line-height:1.5;
-    font-size: 12px;
+    font-size: 1vw;
 }
+
 
 .title {
     letter-spacing: normal;
@@ -45,7 +46,6 @@
 
 .skillsbox p {
     text-indent: 20px;
-    font-size:1vw;
 }
 
 .skillsbox a {

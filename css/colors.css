@@ -12,10 +12,14 @@ body {
     color: #b2dddf;
 }
 
-.footer {
+footer {
     border: solid 1px #B0B0B0;
     background-color:#C0C0D0;
-    color: black;
+    
+}
+footer .text{
+    font-weight:800;
+    color: rgb(98, 97, 97);
 }
 
 
@@ -38,6 +42,10 @@ body {
     text-shadow: 2px 2px 4px #000000;
 }
 .technologycard {
+    background-color:#000000B0;
+}
+
+.skillscard {
     background-color:#000000B0;
 }
 
