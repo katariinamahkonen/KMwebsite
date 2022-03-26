@@ -13,7 +13,7 @@
 
         // On first load, show home view
         $ajaxUtils.sendGetRequest(
-            "html/katariinaPage.html",
+            "html/KatariinaPage.html",
             function (html) {
                 console.log(html)
                insertHtml("#contents", html); 
@@ -52,7 +52,7 @@
     aip.loadHomePage = function () {
        // showLoading("#main-content");
         $ajaxUtils.sendGetRequest(
-            "html/katariinaPage.html",
+            "html/KatariinaPage.html",
             function (html) {
                 console.log(html)
                insertHtml("#contents", html); 
